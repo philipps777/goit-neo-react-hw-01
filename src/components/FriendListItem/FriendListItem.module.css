@@ -1,0 +1,30 @@
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 20px;
+  width: 120px;
+  height: 180px;
+  border-radius: 3px;
+  background-color: #f6fafb;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.statusOnline {
+  color: green;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.statusOffline {
+  color: red;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.name {
+  font-size: 30px;
+  font-weight: 700;
+  color: #252b31;
+}
